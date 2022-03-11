@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd">
+<platform version="4.1">
+  <process host="ClientHost" function="client"/>
+
+  <process host="ServerHost-0" function="queue">
+	<argument value="0"/>
+  </process>
+  <process host="ServerHost-0" function="server">
+	<argument value="0"/>
+  </process>
+
+  <process host="ServerHost-1" function="queue">
+	<argument value="1"/>
+  </process>
+  <process host="ServerHost-1" function="server">
+	<argument value="1"/>
+  </process>
+
+  <process host="ServerHost-2" function="queue">
+	<argument value="2"/>
+  </process>
+  <process host="ServerHost-2" function="server">
+	<argument value="2"/>
+  </process>
+
+  <process host="ServerHost-3" function="queue">
+	<argument value="3"/>
+  </process>
+  <process host="ServerHost-3" function="server">
+	<argument value="3"/>
+  </process>
+
+  <process host="ServerHost-4" function="queue">
+	<argument value="4"/>
+  </process>
+  <process host="ServerHost-4" function="server">
+	<argument value="4"/>
+  </process>
+
+  <process host="ServerHost-5" function="queue">
+	<argument value="5"/>
+  </process>
+  <process host="ServerHost-5" function="server">
+	<argument value="5"/>
+  </process>
+
+  <process host="ServerHost-6" function="queue">
+	<argument value="6"/>
+  </process>
+  <process host="ServerHost-6" function="server">
+	<argument value="6"/>
+  </process>
+
+  <process host="ServerHost-7" function="queue">
+	<argument value="7"/>
+  </process>
+  <process host="ServerHost-7" function="server">
+	<argument value="7"/>
+  </process>
+
+  <process host="ServerHost-8" function="queue">
+	<argument value="8"/>
+  </process>
+  <process host="ServerHost-8" function="server">
+	<argument value="8"/>
+  </process>
+
+  <process host="ServerHost-9" function="queue">
+	<argument value="9"/>
+  </process>
+  <process host="ServerHost-9" function="server">
+	<argument value="9"/>
+  </process>
+
+</platform>

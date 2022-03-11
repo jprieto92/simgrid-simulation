@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd">
+ <platform version="4.1">
+ <AS  id="AS0"  routing="Full">
+
+   <host id="ClientHost" speed="1000000f"/>
+   <host id="ServerHost-0" speed="1000000f"/>
+   <host id="ServerHost-1" speed="1000000f"/>
+   <host id="ServerHost-2" speed="1000000f"/>
+   <host id="ServerHost-3" speed="1000000f"/>
+   <host id="ServerHost-4" speed="1000000f"/>
+   <host id="ServerHost-5" speed="1000000f"/>
+   <host id="ServerHost-6" speed="1000000f"/>
+   <host id="ServerHost-7" speed="1000000f"/>
+   <host id="ServerHost-8" speed="1000000f"/>
+   <host id="ServerHost-9" speed="1000000f"/>
+
+   <link id="1" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="2" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="3" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="4" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="5" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="6" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="7" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="8" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="9" bandwidth="1000000000bps" latency="0.0000000s"/>
+   <link id="10" bandwidth="1000000000bps" latency="0.0000000s"/>
+
+
+   <route src="ClientHost" dst="ServerHost-0">
+     <link_ctn id="1"/>
+   </route>
+ 
+   <route src="ClientHost" dst="ServerHost-1">
+     <link_ctn id="2"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-2">
+     <link_ctn id="3"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-3">
+     <link_ctn id="4"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-4">
+     <link_ctn id="5"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-5">
+     <link_ctn id="6"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-6">
+     <link_ctn id="7"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-7">
+     <link_ctn id="8"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-8">
+     <link_ctn id="9"/>
+   </route>
+
+   <route src="ClientHost" dst="ServerHost-9">
+     <link_ctn id="10"/>
+   </route>
+
+ </AS>
+ </platform>
